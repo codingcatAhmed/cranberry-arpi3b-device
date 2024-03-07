@@ -1,0 +1,8 @@
+kernel=u-boot.bin
+
+# Serial console
+enable_uart=1
+
+dtoverlay=vc4-kms-v3d,cma-256
+dtoverlay=android-fstab
+dtoverlay=pwm
